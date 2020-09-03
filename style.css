@@ -1,4 +1,4 @@
-h1{
+h2{
   font-size: 2rem;
   color: black;
   border-bottom: 3px solid gray;
@@ -38,7 +38,7 @@ ul,p{
   #picture{
     text-align: center;
   }
-  h1{
+  h2{
     border-bottom: none;
   }
   ul{
