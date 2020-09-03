@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChangShu~♡</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <style>
+    h1{
+      font-size: 3rem;
+      color: black;
+      border-bottom: 3px solid gray;
+      text-align: center;
+      margin: 0;
+    }
+    body{
+      background-color: LightGray;
+      font-size: 2rem;
+      font-family: 'Nanum Pen Script', cursive;
+      font-weight: bold;
+      color: black;
+    }
+    ul{
+      border-right: 3px solid gray;
+      width: 100px;
+      margin: 0;
+      color: black;
+    }
+    p{
+      text-align: center;
+      margin: 0;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    @media(max-width:800px){
+      #grid{
+        display: block;
+      }
+      h1{
+        border-bottom: none;
+      }
+      ul{
+        border-right: none;
+      }
+    }
+    #ChangShu{
+      margin-top: 10px;
+      text-align: center;
+    }
+    a:link{
+      color:black;
+    }
+    a:visited{
+      color:black;
+    }
+    </style>
+  </head>
+  <body>
+    <a href="main.html"><h1>한국을 빛낸 100명의 위인들</h1></a>
+    <div id="grid">
+      <ul>
+        <a href="1절.html"><li>1절</li></a>
+        <a href="2절.html"><li>2절</li></a>
+        <a href="3절.html"><li>3절</li></a>
+        <a href="4절.html"><li>4절</li></a>
+        <a href="5절.html"><li>5절</li></a>
+      </ul>
+      <div id="ChangShu">
+        <video width="600" controls>
+          <source src="장슈.mp4">
+        </video><br>
+        <audio src="main.mp3" autoplay controls></audio>
+      </div>
+    </div>
+  </body>
+</html>
